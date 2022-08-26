@@ -2,3 +2,4 @@
 The file "germband_C_open.cpp" is vertex model code for shaping spider embryo.  
 This spherical surface vertex model code was written in C++.  
 Operation checks were made using operating systems for Mac and Linux.
+More information about the equations in the program code is described in https://www.frontiersin.org/articles/10.3389/fcell.2022.932814/full.
