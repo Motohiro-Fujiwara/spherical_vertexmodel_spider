@@ -1,6 +1,6 @@
 import processing.opengl.*; 
 
-String[] lines, lines2, lines3,lines4,lines5,lines6, pieces, pieces2, pieces3, pieces4, pieces5, pieces6;
+String[] lines, lines2, lines3,lines4, pieces, pieces2, pieces3, pieces4;
 int i,j,jmax,k,kmax;
 int ifac = 0;
 float a=1.2,b=0,c=0,d=2,e=0, f=5.0;
@@ -84,14 +84,14 @@ void draw(){
        noStroke();
     }
      if(cell_type==3){
-      fill(60,240,255);
+      fill(60,180,255);
     }
      if(cell_type==4){
       //noFill();
       //noStroke();
     }
     if(cell_type==5){
-       fill(60,60,255);
+       fill(60,180,255);
     }
     
     if(cell_type==6){
@@ -99,10 +99,7 @@ void draw(){
        strokeWeight(1);
     }
      
-    if(i==1464){
-      noFill();
-    }
-     if(cell_lineage==1){
+   /*  if(cell_lineage==1){
       fill(200,0,0);
     }
     if(cell_lineage==2){
@@ -114,7 +111,7 @@ void draw(){
     if(cell_type==-1){
        noFill();
        stroke(200,0,0);
-    }
+    }*/
      //noFill();
      
   beginShape();
