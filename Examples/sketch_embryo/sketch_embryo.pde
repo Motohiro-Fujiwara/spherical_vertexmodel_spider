@@ -52,13 +52,13 @@ void draw(){
     rotateZ(-1.57);
    
     //cell
-    lines = loadStrings("/Users/fujiwara/Desktop/vertex_spider/data3D_band/z_cellform"+ifac+".dat");
+    lines = loadStrings("/xxxx/data3D_band/z_cellform"+ifac+".dat");
    //celltype
-    lines2 = loadStrings("/Users/fujiwara/Desktop/vertex_spider/data3D_band/z_celltype"+ifac+".dat");
+    lines2 = loadStrings("/xxxx/data3D_band/z_celltype"+ifac+".dat");
   //vertical vector
-   lines3 = loadStrings("/Users/fujiwara/Desktop/vertex_spider/data3D_band/z_vertical_vector"+ifac+".dat");
+   lines3 = loadStrings("/xxxx/data3D_band/z_vertical_vector"+ifac+".dat");
   //center
-   lines4 = loadStrings("/Users/fujiwara/Desktop/vertex_spider/data3D_band/z_centroid"+ifac+".dat");
+   lines4 = loadStrings("/xxxx/data3D_band/z_centroid"+ifac+".dat");
  
   //cell
   for(i=0; i<lines.length; i++)  {
@@ -201,7 +201,7 @@ void draw(){
   }
   println(ifac);
   mousePressed();
-  //saveFrame("/Users/fujiwara/Desktop/vertex_spider/sketch_embryo/band_t2-1027-4/z_form3d-####.png");
+  //saveFrame("/xxxx/sketch_embryo/germband/z_form3d_####.png");
 }
 
 void mousePressed() {
