@@ -4,6 +4,7 @@ This spherical surface vertex model code was written in C++.
 Operation checks were made using operating systems for Mac and Linux.  
 You can use the data files in the "Examples/initial_setting_cell1840" folder as the initial state to calculate the spider embryo simulation.  
 Then, please rewrite the file path to these data files in the program code "germband_C_open.cpp".  
+When you run the program code, please create folders to output the simulation data.  
 One example of a method for visualizing embryo simulation results of data files is provided by "Processing" code in the "Examples/sketch_embryo" folder.  
 The file path in the codes should be changed to match the files on your computer.  
 More information about the equations in the program code is described in https://www.frontiersin.org/articles/10.3389/fcell.2022.932814/full.
